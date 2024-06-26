@@ -24,6 +24,9 @@ aren't.
 - [ ] My changes are well written and CI is passing
 - [ ] I have squashed my work to relevant commits and rebased on main
       for linear history
+- [ ] I have added a "Co-authored-by: x" if several people
+      contributed, either pair programming or by squashing commits
+      from different authors.
 - [ ] I have updated the documentation where relevant (readme,
       dev.tillitis.se etc.)
 - [ ] QEMU is updated to reflect changes
