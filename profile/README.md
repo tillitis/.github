@@ -6,7 +6,12 @@ Tillitis is the maker of the TKey, a new kind of USB security device.
 - [Web shop](https://shop.tillitis.se/).
 - [Developer Handbook](https://dev.tillitis.se).
 
-## About repositories, branches and releases
+## Current Work in Progress
+We are updating the FPGA and firmware on TKey as part of the Castor release. This update will simplify TKey’s usage, laying the groundwork for future support of U2F/FIDO authentication. 
+
+The primary development is taking place in the [tillitis-key1 repository](https://github.com/tillitis/tillitis-key1) and you can track our progress through [this milestone](https://github.com/tillitis/tillitis-key1/milestone/1).
+
+### About repositories, branches and releases
 
 Main branches in all repositories are in development. We aim to keep them buildable at all times, but there are some things to keep in mind.
 
