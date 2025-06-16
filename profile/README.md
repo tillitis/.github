@@ -7,16 +7,22 @@ Tillitis is the maker of the TKey, a new kind of USB security device.
 - [Developer Handbook](https://dev.tillitis.se).
 
 ## Current Work in Progress
-We are updating the FPGA and firmware on TKey as part of the Castor release. This update will simplify TKey’s usage, laying the groundwork for future support of U2F/FIDO authentication. 
+We currently work on FIDO2.
 
-The primary development is taking place in the [tillitis-key1 repository](https://github.com/tillitis/tillitis-key1) and you can track our progress through [this milestone](https://github.com/tillitis/tillitis-key1/milestone/1).
+As soon as we have setup a milestone for the FIDO2 release we will it publish so progress can be followed. 
+In mean while, check out the [fido2-demo repository](https://github.com/tillitis/fido2-demo), which contains the demo we showed at SecurityFest 2025. 
+
+**NB:** It's only a demo. Try it for fun, do not use in production.
+
+**NB2:** FIDO2 runs only on Castor platform, currently in [alpha release](https://github.com/tillitis/tillitis-key1/releases/tag/TK1-Castor-alpha-1).
 
 ### About repositories, branches and releases
 
-Main branches in all repositories are in development. We aim to keep them buildable at all times, but there are some things to keep in mind.
+Main branches in all repositories are in development. We _aim_ to keep main branches buildable and workning at all times, 
+but it's not guaranteed and there are some things to keep in mind:
 
 - Main branches can be incompatible between repositories. 
-- To ensure compatibility use tagged releases. 
+- To ensure compatibility between repositories use tagged releases, where compatibility is noted.
 - Main branch can be used for e.g. early testing of new features.
 
 ## Team & keys
