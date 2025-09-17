@@ -9,9 +9,9 @@ Tillitis is the maker of the TKey, a new kind of USB security device.
 ## Current Work in Progress
 We currently work on FIDO2.
 
-As soon as we have setup a milestone for the FIDO2 release we will it
-publish so progress can be followed. In mean while, check out the
-[fido2-demo repository](https://github.com/tillitis/fido2-demo), which
+As soon as we have setup a milestone for the FIDO2 release we will
+publish it so progress can be followed. Meanwhile, check out the
+[fido2-demo repository](https://github.com/tillitis/fido2-demo) which
 contains the demo we showed at SecurityFest 2025.
 
 **NB:** It's only a demo. Try it for fun, do not use in production.
@@ -63,7 +63,7 @@ SSH keys in [allowed_signers](../keys/allowed_signers) one of us will
 sign this file with PGP every time it changes during a transition
 time, until we start signing it with a Tillitis vendor key.
 
-You can verify that one of us has signed it with by downloading:
+You can verify that one of us has signed it by downloading:
 
 - [allowed_signers](../keys/allowed_signers)
 - [allowed_signers.sig](../keys/allowed_signers.sig)
@@ -76,8 +76,8 @@ $ gpg --verify allowed_signers.sig
 
 You are already assumed to have all our PGP keys (linked above).
 
-To help trust the transition here is our SSH keys signed by our former
-PGP keys (first part of e-mail address in `allowed_signers` in
+To help trust the transition here are our SSH keys signed by our
+former PGP keys (first part of e-mail address in `allowed_signers` in
 parenthesis):
 
 - [Michel Cardell Widerkrantz (mc)](../keys/mc-ssh.asc)
@@ -86,7 +86,8 @@ parenthesis):
 - [Jonas Thörnblad (jonas)](../keys/jonas-ssh.asc)
 - [Mikael Ågren (mikael)](../keys/agren-ssh.asc)
 
-You can verify our PGP signature of our SSH key with, for example:
+You can verify a PGP signature of one of our SSH key by running a
+command like this:
 
 ```
 $ gpg --verify mc-ssh.asc
@@ -102,9 +103,9 @@ Again, you are assumed to already have our PGP keys (linked to above).
 ### Former members
 
 - [Björn Töpel](https://github.com/bjoto) |
-  [PGP  key](../keys/bjoto.asc)
+  [PGP key](../keys/bjoto.asc)
 - [Daniel Lublin](https://github.com/quite) |
   [PGP key](../keys/quite.asc)
 - [Joachim Strömbergson](https://github.com/secworks) |
-  [PGP  key](../keys/secworks.asc)
+  [PGP key](../keys/secworks.asc)
 - [Matthew Metts](https://github.com/cibomahto)
