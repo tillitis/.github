@@ -174,7 +174,7 @@ TKey.
 - 1x git repository
 - Many tamper-evident bags
 
-[TKey2 tooling]: https://github.com/Yubico/yubihsm-shell
+FIXME [TKey2 tooling]: 
 
 ### Locations
 
