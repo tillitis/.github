@@ -143,10 +143,9 @@ Below is an example of a table that could be tracked in a git repository.  E.g.,
 before opening a tamper-evident bag and subsequently replacing it, one would
 confirm with the others that they currently have and still get the same table.
 
-| Date       | Storage location | Device | Bag serial number | Notes                    |
-|------------|------------------|--------|-------------------|--------------------------|
-| YYYY-MM-DD | Location A       | TKey1  | 00 000 000 001    | Initial provisioning     |
-| YYYY-MM-DD | Location A       | TKey1  | 00 000 000 002    | Q4-25 check Ok.          |
+| Date       | Storage location | Device       | Bag serial number | Notes                    |
+|------------|------------------|--------------|-------------------|--------------------------|
+| YYYY-MM-DD | Location A       | TKey1 backup | 000002            | Initial provisioning     |
 
 **Routine:** check that the backup TKey works every three months.
 
@@ -167,14 +166,12 @@ TKey.
 
 ### Equipment
 
+- 1x signing-oracle TKey
 - 1x backup TKey
-- 1x signing-oracle TKey (witness)
-- 1x dedicated provisioning machine configured with [TKey2 tooling][], the
-  scripts for automation (see README instructions), and no network access
+- 1x provisioning machine configured with [TKey
+tooling](./../provisioning-tkey.md)
 - 1x git repository
 - Many tamper-evident bags
-
-FIXME [TKey2 tooling]: 
 
 ### Locations
 
@@ -195,11 +192,11 @@ _signing-oracle_ and one backup TKey with this UDS. Store UDS in an
 age encrypted file, with recipients set to all employees at Tillitis.
 Follow normal procedure to erase UDS from provisioning machine.
 
-FIXME
-Run [USS provision script](../../README.md) for generating USS and
-follow the instructions. Take note of which TKey serial number is
-provisioned with what. Save `random.age` files on a USB memory.
-Upload age files to repository FIXME.
+FIXME Run [TKey provision script](../provisioning-tkey.md) for generating USS
+and follow the instructions. Take note of which TKey serial number is
+provisioned with what. Save `random.age` files on a USB memory and
+transport to network connected machine. Upload age files to repository
+FIXME and format USB memory to wipa all data.
 
 Put backup TKeys into tamper-evident bags. Populate the git repository
 table with initial storage locations and serial numbers.
