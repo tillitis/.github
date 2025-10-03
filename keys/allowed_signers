@@ -1,4 +1,5 @@
-mc@tillitis.se namespaces="git" ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINVBi90RrGHZy/VrUrX1ZbAsZ1KM1iCp6Sr2RD768HyL
+mc@tillitis.se namespaces="git" ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINVBi90RrGHZy/VrUrX1ZbAsZ1KM1iCp6Sr2RD768HyL valid-before=20251003
+mc@tillitis.se namespaces="git" ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBAYjw/gNz6E6uZe2D1l95QouMOsQluqsVRViy/3CYoO valid-after=20251002
 jobson@tillitis.se namespaces="git" ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDLqW0A98hcPQw6VWsgAR+RW/MibTTaA05OvQx6a43zo
 jobson@tillitis.se namespaces="git" ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILL3NEtfkr8FRh5L4yxhPTDvHa2hTymlmRPr+ENGcGmI
 mikael@tillitis.se namespaces="git" ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILF5CXdd8X0io9LFpy7Lo2som5aalsk2Zd6/I4js23Bi
