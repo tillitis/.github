@@ -143,9 +143,9 @@ loaded onto TKey and secret passphrase (USS) is provided at request.
 Secret passphrase is manually written in the pin entry dialog box. See
 [above](#secret-passphrase-uss) how passphrase is retrieved.
 
-If it is detected that a signing TKey is breached (e.g., it is lost or
-somehow broken) install the backup TKey and provision a new backup
-TKey.
+If it is detected that a signing TKey is malfunctioning or broken in
+some way, destroy the signing TKey, install the backup TKey and
+provision a new backup TKey.
 
 **Routine:** Automate checks that verify if a node's TKey is plugged-in.
 
