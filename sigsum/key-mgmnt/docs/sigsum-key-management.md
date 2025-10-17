@@ -116,11 +116,10 @@ consist of at least six words.
 Secret passphrase is stored in an age encrypted file, with recipients
 set to all employees at Tillitis. Employees shall create their age
 identity with their personal TKey, which means their TKey is needed
-for decrypting the file. File is stored on two separate USB memories
-(for redundacy reason).
+for decrypting the file. File is stored on local server and on one USB
+memory (for redundacy reason).
 
-**Routine:** Check by decrypting age files on the USB memories every
-three months.
+**Routine:** Check by decrypting age files every three months.
 
 ### Backup TKey
 
@@ -199,7 +198,7 @@ TKey. To decrypt the user will need it's TKey and run:
 
 `age -i id_file --decrypt encrypted_file`
 
-Save encrypted file on local server and te USB memory and put the USB
+Save encrypted file on local server and the USB memory and put the USB
 memory in tamper-evident bag. Populate the git repository table with
 initial storage locations and serial numbers of bags.
 
