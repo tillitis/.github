@@ -165,7 +165,7 @@ confirm with the others that they currently have and still get the same table.
 
 - 2x TKeys to provision
 - 1x provisioning machine configured with [tools needed](#introduction)
-- 2x USB memories
+- 1x USB memory
 - 1x git repository
 - Many tamper-evident bags
 
@@ -199,12 +199,12 @@ TKey. To decrypt the user will need it's TKey and run:
 
 `age -i id_file --decrypt encrypted_file`
 
+Save encrypted file on local server and te USB memory and put the USB
+memory in tamper-evident bag. Populate the git repository table with
+initial storage locations and serial numbers of bags.
+
 Put backup TKey into tamper-evident bag. Populate the git repository
 table with initial storage location and serial number of bag.
-
-Put each USB memory in respective tamper-evident bag. Populate the git
-repository table with initial storage locations and serial numbers of
-bags.
 
 Transport the different items to their distinct storage locations.
 Plug _signing TKey_ into the networked node, or store it in the same
