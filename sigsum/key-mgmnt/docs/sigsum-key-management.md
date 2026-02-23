@@ -103,8 +103,9 @@ bag.
 
 UDS is a 256-bit random number generated with `TKey Random Generator`.
 
-**Routine:** Check tamper-evident bag every month. Open bag every
-third month and check note.
+**Routine:** Every third month: Check that the bag is unopened and the
+bag serial number is correct. 
+**Routine:** Yearly: Open the bag and check note.
 
 ### Secret passphrase (USS)
 
@@ -119,7 +120,10 @@ identity with their personal TKey, which means their TKey is needed
 for decrypting the file. File is stored on local server and on one USB
 memory (for redundancy reason).
 
-**Routine:** Check by decrypting age files every three months.
+**Routine:** Every third month: Check by decrypting age files.
+**Routine:** Every third month: Check that the bag is unopened and the
+bag serial number is correct. 
+**Routine:** Yearly: Open the bag and check note.
 
 ### Backup TKey
 
@@ -132,8 +136,8 @@ Backup TKey is stored in a tamper-evident bag on a secure location.
 If it is detected that a backup TKey is malfunctioning (e.g., hardware
 failure), re-provision so that there is a new backup TKey.
 
-**Routine:** check that the backup TKey works, with
-`tkey-verification` every three months.
+**Routine:** Every third month: Check that the backup TKey works, with
+`tkey-verification`.
 
 ### Signing TKey
 
