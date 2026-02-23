@@ -18,7 +18,7 @@ It is also good to read up on how to install and setup [Tkey SSH
 Agent][]. More details can be found in the
 [tkey-ssh-agent repository][].
 
-Also, [TKey Random Number Genrator][] (with [diceware][]) will be used
+Also, [TKey Random Number Generator][] (with [diceware][]) will be used
 to generate random passphrases (USS).
 
 [Age][] together with each employees personal TKey is used for
@@ -29,7 +29,7 @@ encrypting/decrypting passphrases (USS).
 [threat model]: https://github.com/tillitis/tillitis-key1/blob/main/doc/threat_model/threat_model.md
 [Tkey SSH Agent]: https://www.tillitis.se/applications/tkey-ssh-agent/
 [tkey-ssh-agent repository]: https://github.com/tillitis/tkey-ssh-agent/
-[TKey Random Number Genrator]: https://www.tillitis.se/applications/tkey-random-number-generator/
+[TKey Random Number Generator]: https://www.tillitis.se/applications/tkey-random-number-generator/
 [diceware]: https://github.com/tillitis/tkey-random-generator/tree/diceware
 [Age]: https://github.com/FiloSottile/age
 
@@ -103,8 +103,9 @@ bag.
 
 UDS is a 256-bit random number generated with `TKey Random Generator`.
 
-**Routine:** Check tamper-evident bag every month. Open bag every
-third month and check note.
+**Routine:** Every third month: Check that the bag is unopened and the
+bag serial number is correct. 
+**Routine:** Yearly: Open the bag and check note.
 
 ### Secret passphrase (USS)
 
@@ -117,9 +118,12 @@ Secret passphrase is stored in an age encrypted file, with recipients
 set to all employees at Tillitis. Employees shall create their age
 identity with their personal TKey, which means their TKey is needed
 for decrypting the file. File is stored on local server and on one USB
-memory (for redundacy reason).
+memory (for redundancy reason).
 
-**Routine:** Check by decrypting age files every three months.
+**Routine:** Every third month: Check by decrypting age files.
+**Routine:** Every third month: Check that the bag is unopened and the
+bag serial number is correct. 
+**Routine:** Yearly: Open the bag and check note.
 
 ### Backup TKey
 
@@ -132,8 +136,8 @@ Backup TKey is stored in a tamper-evident bag on a secure location.
 If it is detected that a backup TKey is malfunctioning (e.g., hardware
 failure), re-provision so that there is a new backup TKey.
 
-**Routine:** check that the backup TKey works, with
-`tkey-verification` every three months.
+**Routine:** Every third month: Check that the backup TKey works, with
+`tkey-verification`.
 
 ### Signing TKey
 
