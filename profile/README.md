@@ -66,7 +66,7 @@ You can verify that one of us has signed it by downloading:
 and then run:
 
 ```
-$ gpg --verify allowed_signers.sig
+gpg --verify allowed_signers.sig
 ```
 
 You are already assumed to have all our PGP keys (linked above).
