@@ -7,17 +7,12 @@ Tillitis is the maker of the TKey, a new kind of USB security device.
 - [Developer Handbook](https://dev.tillitis.se).
 
 ## Current Work in Progress
-We currently work on FIDO2.
 
-As soon as we have setup a milestone for the FIDO2 release we will
-publish it so progress can be followed. Meanwhile, check out the
-[fido2-demo repository](https://github.com/tillitis/fido2-demo) which
-contains the demo we showed at SecurityFest 2025.
+We currently work on [FIDO2](https://github.com/tillitis/tkey-fido2).
 
-**NB:** It's only a demo. Try it for fun, do not use in production.
-
-**NB2:** FIDO2 runs only on Castor platform, currently in [alpha
-release](https://github.com/tillitis/tillitis-key1/releases/tag/TK1-Castor-alpha-1).
+FIDO2 runs only on Castor platform, currently in alpha release and
+there is a tagged [version currently on
+audit](https://github.com/tillitis/tillitis-key1/releases/tag/audit-2).
 
 ### About repositories, branches and releases
 
