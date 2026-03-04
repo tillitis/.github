@@ -10,9 +10,10 @@ Tillitis is the maker of the TKey, a new kind of USB security device.
 
 We currently work on [FIDO2](https://github.com/tillitis/tkey-fido2).
 
-FIDO2 runs only on Castor platform, currently in alpha release and
-there is a tagged [version currently on
-audit](https://github.com/tillitis/tillitis-key1/releases/tag/audit-2).
+FIDO2 runs only on Castor platform. Castor is currently in alpha
+release and there is a tagged
+[version](https://github.com/tillitis/tillitis-key1/releases/tag/audit-2)
+currently on audit.
 
 ### About repositories, branches and releases
 
@@ -24,6 +25,17 @@ guaranteed and there are some things to keep in mind:
 - To ensure compatibility between repositories use tagged releases,
   where compatibility is noted.
 - Main branch can be used for e.g. early testing of new features.
+
+## Sigsum Witness Operations Details
+
+`tillitis-witness-1` operations is specified in the about page in the
+[tillitis.tillitis-witness-1
+repository](https://github.com/tillitis/tillitis.se-tillitis-witness-1/blob/main/about.md).
+
+There is also an
+[audit log](../sigsum/key-mgmnt/audit-logs/audit-log-witness.md) and [key
+management](../sigsum/key-mgmnt/docs/sigsum-key-management.md)
+description.
 
 ## Team & keys
 
