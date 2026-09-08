@@ -86,10 +86,12 @@ UDS and USS. This is assumed to be hard.
 For physical security and detection of breaches we rely on locks,
 alarms, safes, tamper-evident bags, etc.  Detection of a breach is
 generally assumed to be rapid and obvious; but as a defense-in-depth
-we also do a few routine checks.
+we also do a few routine checks. Routine checks are logged in an
+[audit log][].
 
 [Randomness produced by a TKey]: https://www.tillitis.se/blog/2024/05/27/high-quality-noise-in-a-fpga-how-the-tkey-trng-works/
 [Compound Device Id]: https://www.tillitis.se/blog/2023/03/31/on-tkey-key-generation/
+[audit log]: ../audit-logs/audit-log-witness.md
 
 ## Description
 
@@ -137,7 +139,9 @@ If it is detected that a backup TKey is malfunctioning (e.g., hardware
 failure), re-provision so that there is a new backup TKey.
 
 **Routine:** Every third month: Check that the backup TKey works, with
-`tkey-verification`.
+[tkey-verify][].
+
+[tkey-verify]: https://www.tillitis.se/applications/tkey-device-verification/
 
 ### Signing TKey
 
