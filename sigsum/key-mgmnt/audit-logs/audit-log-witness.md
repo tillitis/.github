@@ -11,3 +11,6 @@
 | 2026-05    | Location A       | tillitis-witness-1 UDS            | -                 | Routine check not performed |
 | 2026-05    | Location B       | tillitis-witness-1 Backup TKey    | -                 | Routine check not performed |
 | 2026-05    | Location C       | tillitis-witness-1 USS backup     | -                 | Routine check not performed |
+| 2026-09-08 | Location A       | tillitis-witness-1 UDS            | 149127            | Routine check               |
+| 2026-09-08 | Location B       | tillitis-witness-1 Backup TKey    | 149188            | Routine check               |
+| 2026-09-08 | Location C       | tillitis-witness-1 USS backup     | 149136            | Routine check               |
