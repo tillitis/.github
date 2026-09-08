@@ -154,7 +154,7 @@ If it is detected that a signing TKey is malfunctioning or broken in
 some way, destroy the signing TKey, install the backup TKey and
 provision a new backup TKey.
 
-**Routine:** Automate checks that verify if a node's TKey is plugged-in.
+**Routine**: Check that automatic witness checker service is running.
 
 ### Tamper-Evident Bags
 
