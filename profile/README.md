@@ -45,8 +45,6 @@ The core team is made up of:
   [PGP key](../keys/dehanj.asc)
 - [Jonas Thörnblad](https://github.com/jthornblad) |
   [PGP key](../keys/jthornblad.asc)
-- [Michael Cardell Widerkrantz](https://github.com/mchack-work) |
-  [PGP key](../keys/mchack-work.asc)
 - [Mikael Ågren](https://github.com/agren) |
   [PGP key](../keys/agren.asc)
 - [Sasko Simonovski](https://github.com/SallSim) |
@@ -116,3 +114,5 @@ Again, you are assumed to already have our PGP keys (linked to above).
 - [Joachim Strömbergson](https://github.com/secworks) |
   [PGP key](../keys/secworks.asc)
 - [Matthew Metts](https://github.com/cibomahto)
+- [Michael Cardell Widerkrantz](https://github.com/mchack-work) |
+  [PGP key](../keys/mchack-work.asc)
