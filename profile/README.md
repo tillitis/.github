@@ -50,6 +50,7 @@ The core team is made up of:
   [PGP key](../keys/agren.asc)
 - [Sasko Simonovski](https://github.com/SallSim) |
   [PGP key](../keys/SallSim.asc)
+- [Christoffer Carlsson](https://github.com/christoffercarlsson)
 
 From 2025-09-17 we sign our Git tags with our SSH keys, which of
 course is on our TKeys. We no longer sign individual commits. To
