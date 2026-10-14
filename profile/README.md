@@ -29,8 +29,7 @@ guaranteed and there are some things to keep in mind:
 ## Sigsum Witness Operations Details
 
 `tillitis-witness-1` operations is specified in the about page in the
-[tillitis.tillitis-witness-1
-repository](https://github.com/tillitis/tillitis.se-tillitis-witness-1/blob/main/about.md).
+[tillitis.tillitis-witness-1 repository](https://github.com/tillitis/tillitis.se-tillitis-witness-1/blob/main/about.md).
 
 There is also an
 [audit log](../sigsum/key-mgmnt/audit-logs/audit-log-witness.md) and [key
@@ -51,13 +50,14 @@ The core team is made up of:
   [PGP key](../keys/agren.asc)
 - [Sasko Simonovski](https://github.com/SallSim) |
   [PGP key](../keys/SallSim.asc)
+- [Christoffer Carlsson](https://github.com/christoffercarlsson)
 
 From 2025-09-17 we sign our Git tags with our SSH keys, which of
 course is on our TKeys. We no longer sign individual commits. To
 verify the tag signatures you need our
 [allowed_signers](../keys/allowed_signers) file. Use like this:
 
-```
+```sh
 git -c gpg.ssh.allowedSignersFile=/path/to/allowed_signers verify-tag v0.0.1
 ```
 
@@ -77,7 +77,7 @@ You can verify that one of us has signed it by downloading:
 
 and then run:
 
-```
+```sh
 gpg --verify allowed_signers.sig
 ```
 
@@ -96,7 +96,7 @@ parenthesis):
 You can verify a PGP signature of one of our SSH key by running a
 command like this:
 
-```
+```console
 $ gpg --verify mc-ssh.asc
 gpg: Signature made Wed 17 Sep 2025 01:42:30 PM CEST
 gpg:                using RSA key 52C45DA02B1AC8AC9565FB73D3DB3DDF57E704E5
